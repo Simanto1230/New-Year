@@ -1,0 +1,486 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{ 
+    margin: 20px;
+    margin-bottom: 90px;
+}
+
+.banner{ 
+    width: 1320px;
+    height: 600px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Banner\ Image.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    
+}
+.year{
+    padding: 180px;
+    
+}
+
+.year h4{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.year h1{
+    color: #FFF;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px; 
+}
+
+.off{
+    width: 1320px;
+    height: 935px;
+    margin-top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.off h1{
+    padding-bottom: 40px;
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.off p{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.off h3{
+    color: #070211;
+    text-align: center;
+    font-family:'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 802.9px;
+    height: 500px;
+    flex-shrink: 0;
+    padding-top: 40px;
+}
+
+.welcome{
+    margin: 20px;
+    margin-bottom: 90px;
+    width: 1320px;
+    height: 600px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-image:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url(../resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    border-radius: 16px;
+}
+.one{
+    width: 70%;
+    padding: 120px 80px 80px;
+}
+.two{
+    padding: 80px 120px 0px 80px;
+}
+
+.welcome h1{
+    color: #FFF;
+    font-family: 'Merriweather', serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+}
+
+.welcome p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+.welcome button{
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    background-color:black;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.welcome button:hover {
+    background-color: #cc7a10;
+    color: white;
+  }
+
+  .pink{
+    width: 1320px;
+    height: 300px;
+    padding-top:120px;
+    margin-bottom: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255, 0, 0, 0.211));
+}
+.pink .red{
+ color: red;
+}
+.pink p{
+    text-align: center;
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+
+.container{
+    width: 1320px;
+    height: 635px;
+    display: flex;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-one{
+    text-align: left;
+    width: 364.844px;
+height: 364.844px;
+padding: 90px 00px 0px 0px;
+}
+.container-one h6{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    
+}
+
+.container-one h2{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin: 10px 0px 15px;
+}
+.container-one p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+}
+
+.container-two{
+    width: 463px;
+    height: 463px;
+   border: 15px solid red;
+   border-radius: 50%;
+}
+.container-two .img{
+    width: 394.844px;
+    height: 394.844px;
+    border-radius: 50%;
+}
+.container-three{
+    width: 463px;
+    height: 463px;
+    text-align: left;
+    padding-top: 90px;
+    padding-left: 40px;
+}
+.container-three h2{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.container-three p{
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    margin: 15px 0px 25px;
+}
+.container-three img{
+    text-align: left;
+}
+
+.what{
+    width: 1320px;
+    height: 435px;
+    display: block;
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.what h6{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.what h1{
+    padding: 30px 0px 30px;
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.holi{
+    color: #F00;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.what p{
+    color: rgba(7, 2, 17, 0.60);
+    padding: 0px 140px 0px;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.dis{
+    width: 1320px;
+    height: 433px;
+    display: flex;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: #F00 260px solid;    
+    border-radius: 16px 0px 16px 16px;
+}
+.box{
+    width: 50.8%;
+}
+.box img{
+    width: 850px;
+}
+.cir{
+    padding-top: 110px;
+    width: 220.048px;
+    height: 220.048px;
+    transform: rotate(-34.212deg);
+    flex-shrink: 0;
+
+}
+.dis .girl{
+    width: 429px;
+    height: 433px;
+    float: right;
+}
+
+.best{
+    width: 1320px;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+}
+.best h4{
+    color: #F00;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.best h2{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    padding: 40px 0px 30px;
+}
+.best P{
+    padding: 0px 360px 0px 0px;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+
+.gallary1 {
+    margin-top: 40px;
+    width: 1320px;
+    height: 450px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallary1 .img{
+    width: 424px;
+    height: 450px;
+    flex-shrink: 0;
+    transition: transform .2s;
+}
+
+.gallary2 {
+    width: 1320px;
+    height: 450px;
+    display: flex;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallary2 .img{
+    width: 424px;
+    height: 450px;
+    flex-shrink: 0;
+    transition: transform .2s;
+}
+
+.gallary1 img:hover {
+    transform: scale(1.5);
+}
+.gallary2 img:hover {
+    transform: scale(1.5);
+}
+
+.mail{
+    width: 1320px;
+    height: 430px;
+    margin-top: 220px;
+    margin-bottom: 80px;
+    padding-top: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 16px;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(255, 0, 0, 0.211));
+    text-align: center;
+}
+.mail img{
+    width: 150px;
+height: 150px;
+flex-shrink: 0;
+}
+.mail h2{
+    color: #070211;
+
+text-align: center;
+font-family: Merriweather;
+font-size: 48px;
+font-style: normal;
+font-weight: 900;
+line-height: normal;
+text-transform: capitalize;
+}
+.mail p{
+    color: rgba(7, 2, 17, 0.60);
+    padding: 40px 120px 30px;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+}
+.mail input{
+    width: 348px;
+height: 42px;
+flex-shrink: 0;
+border-radius: 50px;
+background: #FFF;
+}
+.mail ::placeholder{
+    color: rgba(7, 2, 17, 0.30);
+
+text-align: center;
+font-family: Inter;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.mail button{
+    color: #FFF;
+background-color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: capitalize;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background: #070211;
+}
